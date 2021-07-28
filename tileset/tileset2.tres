@@ -1,0 +1,435 @@
+[gd_resource type="TileSet" load_steps=33 format=2]
+
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt67.png" type="Texture" id=1]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt64.png" type="Texture" id=2]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt86.png" type="Texture" id=3]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt84.png" type="Texture" id=4]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt89.png" type="Texture" id=5]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt90.png" type="Texture" id=6]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt85.png" type="Texture" id=7]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt66.png" type="Texture" id=8]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt25.png" type="Texture" id=9]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt68.png" type="Texture" id=10]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt65.png" type="Texture" id=11]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt72.png" type="Texture" id=12]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt22.png" type="Texture" id=13]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt40.png" type="Texture" id=14]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt46.png" type="Texture" id=15]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt76.png" type="Texture" id=16]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt82.png" type="Texture" id=17]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt88.png" type="Texture" id=18]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt83.png" type="Texture" id=19]
+
+[sub_resource type="ConvexPolygonShape2D" id=1]
+points = PoolVector2Array( 30.014, 30.5943, -64.0048, 63.9316, -64.0048, 44.079, 16.1547, 15.2366 )
+
+[sub_resource type="ConvexPolygonShape2D" id=2]
+points = PoolVector2Array( 64.0066, -63.8543, 30.014, 30.5943, 16.1547, 15.2366, 44.0691, -63.9793 )
+
+[sub_resource type="ConvexPolygonShape2D" id=3]
+points = PoolVector2Array( 63.8196, 63.9399, 44.3524, 63.9391, 47.4222, 50.0651, 63.7274, 43.9391 )
+
+[sub_resource type="ConvexPolygonShape2D" id=4]
+points = PoolVector2Array( 63.8196, 63.9399, 44.0699, 64.0362, 47.4222, 50.0651, 63.9224, 43.6217 )
+
+[sub_resource type="RectangleShape2D" id=5]
+extents = Vector2( 63.664, 10 )
+
+[sub_resource type="ConvexPolygonShape2D" id=6]
+points = PoolVector2Array( -64.0226, -64.0609, -43.8976, -64.0609, -49.6476, -48.9359, -64.1476, -43.9359 )
+
+[sub_resource type="ConvexPolygonShape2D" id=7]
+points = PoolVector2Array( -2.42996, 37.0883, 63.9405, 14.9695, 63.9801, 38.0889, 3.02803, 56.7263, -63.9686, 63.9566 )
+
+[sub_resource type="ConvexPolygonShape2D" id=8]
+points = PoolVector2Array( -63.9686, 63.9566, -63.9392, 43.7174, -2.42996, 37.0883 )
+
+[sub_resource type="ConvexPolygonShape2D" id=9]
+points = PoolVector2Array( 16.3903, -63.8414, 39.2333, -64.0087, -3.10959, -3.70564, -18.2579, -18.9401 )
+
+[sub_resource type="ConvexPolygonShape2D" id=10]
+points = PoolVector2Array( -3.10959, -3.70564, -63.767, 37.5758, -63.8663, 14.6475, -18.2579, -18.9401 )
+
+[sub_resource type="ConvexPolygonShape2D" id=11]
+points = PoolVector2Array( 0.405472, -64.241, 20.248, -64.0425, 64.0129, 23.1609, 63.6861, 63.4775 )
+
+[sub_resource type="ConvexPolygonShape2D" id=12]
+points = PoolVector2Array( -44.0276, 63.8905, -64.1801, 63.8905, -64.1801, 24.6461 )
+
+[sub_resource type="ConvexPolygonShape2D" id=13]
+points = PoolVector2Array( -19.7894, -64.0687, 0.365387, -64.0023, 63.9668, 63.9862, 44.2536, 63.8459 )
+
+[resource]
+0/name = "road_asphalt22"
+0/texture = ExtResource( 13 )
+0/tex_offset = Vector2( 0, 0 )
+0/modulate = Color( 1, 1, 1, 1 )
+0/region = Rect2( 0, 0, 128, 128 )
+0/tile_mode = 0
+0/occluder_offset = Vector2( 64, 64 )
+0/navigation_offset = Vector2( 64, 64 )
+0/shape_offset = Vector2( 0, 0 )
+0/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+0/shape_one_way = false
+0/shape_one_way_margin = 0.0
+0/shapes = [  ]
+0/z_index = 0
+1/name = "road_asphalt25"
+1/texture = ExtResource( 9 )
+1/tex_offset = Vector2( 0, 0 )
+1/modulate = Color( 1, 1, 1, 1 )
+1/region = Rect2( 0, 0, 128, 128 )
+1/tile_mode = 0
+1/occluder_offset = Vector2( 64, 64 )
+1/navigation_offset = Vector2( 64, 64 )
+1/shape_offset = Vector2( 64, 64 )
+1/shape_transform = Transform2D( 1, 0, 0, 1, 64, 64 )
+1/shape = SubResource( 1 )
+1/shape_one_way = false
+1/shape_one_way_margin = 1.0
+1/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 1 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 64, 64 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 2 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 64, 64 )
+} ]
+1/z_index = 0
+2/name = "road_asphalt40"
+2/texture = ExtResource( 14 )
+2/tex_offset = Vector2( 0, 0 )
+2/modulate = Color( 1, 1, 1, 1 )
+2/region = Rect2( 0, 0, 128, 128 )
+2/tile_mode = 0
+2/occluder_offset = Vector2( 64, 64 )
+2/navigation_offset = Vector2( 64, 64 )
+2/shape_offset = Vector2( 64, 117.575 )
+2/shape_transform = Transform2D( 1, 0, 0, 1, 64, 117.575 )
+2/shape = SubResource( 5 )
+2/shape_one_way = false
+2/shape_one_way_margin = 1.0
+2/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 5 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 64, 117.575 )
+} ]
+2/z_index = 0
+3/name = "road_asphalt46"
+3/texture = ExtResource( 15 )
+3/tex_offset = Vector2( 0, 0 )
+3/modulate = Color( 1, 1, 1, 1 )
+3/region = Rect2( 0, 0, 128, 128 )
+3/tile_mode = 0
+3/occluder_offset = Vector2( 64, 64 )
+3/navigation_offset = Vector2( 64, 64 )
+3/shape_offset = Vector2( 64, 64 )
+3/shape_transform = Transform2D( 1, 0, 0, 1, 64, 64 )
+3/shape = SubResource( 6 )
+3/shape_one_way = false
+3/shape_one_way_margin = 1.0
+3/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 6 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 64, 64 )
+} ]
+3/z_index = 0
+4/name = "road_asphalt64"
+4/texture = ExtResource( 2 )
+4/tex_offset = Vector2( 0, 0 )
+4/modulate = Color( 1, 1, 1, 1 )
+4/region = Rect2( 0, 0, 128, 128 )
+4/tile_mode = 0
+4/occluder_offset = Vector2( 64, 64 )
+4/navigation_offset = Vector2( 64, 64 )
+4/shape_offset = Vector2( 64, 64 )
+4/shape_transform = Transform2D( 1, 0, 0, 1, 64, 64 )
+4/shape = SubResource( 7 )
+4/shape_one_way = false
+4/shape_one_way_margin = 1.0
+4/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 7 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 64, 64 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 8 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 64, 64 )
+} ]
+4/z_index = 0
+5/name = "road_asphalt65"
+5/texture = ExtResource( 11 )
+5/tex_offset = Vector2( 0, 0 )
+5/modulate = Color( 1, 1, 1, 1 )
+5/region = Rect2( 0, 0, 128, 128 )
+5/tile_mode = 0
+5/occluder_offset = Vector2( 64, 64 )
+5/navigation_offset = Vector2( 64, 64 )
+5/shape_offset = Vector2( 64, 64 )
+5/shape_transform = Transform2D( 1, 0, 0, 1, 64, 64 )
+5/shape = SubResource( 9 )
+5/shape_one_way = false
+5/shape_one_way_margin = 1.0
+5/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 9 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 64, 64 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 10 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 64, 64 )
+} ]
+5/z_index = 0
+6/name = "road_asphalt66"
+6/texture = ExtResource( 8 )
+6/tex_offset = Vector2( 0, 0 )
+6/modulate = Color( 1, 1, 1, 1 )
+6/region = Rect2( 0, 0, 128, 128 )
+6/tile_mode = 0
+6/occluder_offset = Vector2( 64, 64 )
+6/navigation_offset = Vector2( 64, 64 )
+6/shape_offset = Vector2( 64, 64 )
+6/shape_transform = Transform2D( 1, 0, 0, 1, 64, 64 )
+6/shape = SubResource( 11 )
+6/shape_one_way = false
+6/shape_one_way_margin = 1.0
+6/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 11 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 64, 64 )
+} ]
+6/z_index = 0
+7/name = "road_asphalt67"
+7/texture = ExtResource( 1 )
+7/tex_offset = Vector2( 0, 0 )
+7/modulate = Color( 1, 1, 1, 1 )
+7/region = Rect2( 0, 0, 128, 128 )
+7/tile_mode = 0
+7/occluder_offset = Vector2( 64, 64 )
+7/navigation_offset = Vector2( 64, 64 )
+7/shape_offset = Vector2( 64, 64 )
+7/shape_transform = Transform2D( 1, 0, 0, 1, 64, 64 )
+7/shape = SubResource( 12 )
+7/shape_one_way = false
+7/shape_one_way_margin = 1.0
+7/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 12 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 64, 64 )
+} ]
+7/z_index = 0
+8/name = "road_asphalt68"
+8/texture = ExtResource( 10 )
+8/tex_offset = Vector2( 0, 0 )
+8/modulate = Color( 1, 1, 1, 1 )
+8/region = Rect2( 0, 0, 128, 128 )
+8/tile_mode = 0
+8/occluder_offset = Vector2( 64, 64 )
+8/navigation_offset = Vector2( 64, 64 )
+8/shape_offset = Vector2( 64, 64 )
+8/shape_transform = Transform2D( 1, 0, 0, 1, 64, 64 )
+8/shape = SubResource( 13 )
+8/shape_one_way = false
+8/shape_one_way_margin = 1.0
+8/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 13 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 64, 64 )
+} ]
+8/z_index = 0
+9/name = "road_asphalt72"
+9/texture = ExtResource( 12 )
+9/tex_offset = Vector2( 0, 0 )
+9/modulate = Color( 1, 1, 1, 1 )
+9/region = Rect2( 0, 0, 128, 128 )
+9/tile_mode = 0
+9/occluder_offset = Vector2( 64, 64 )
+9/navigation_offset = Vector2( 64, 64 )
+9/shape_offset = Vector2( 0, 0 )
+9/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+9/shape_one_way = false
+9/shape_one_way_margin = 0.0
+9/shapes = [  ]
+9/z_index = 0
+10/name = "road_asphalt76"
+10/texture = ExtResource( 16 )
+10/tex_offset = Vector2( 0, 0 )
+10/modulate = Color( 1, 1, 1, 1 )
+10/region = Rect2( 0, 0, 128, 128 )
+10/tile_mode = 0
+10/occluder_offset = Vector2( 64, 64 )
+10/navigation_offset = Vector2( 64, 64 )
+10/shape_offset = Vector2( 64, 64 )
+10/shape_transform = Transform2D( 1, 0, 0, 1, 64, 64 )
+10/shape = SubResource( 3 )
+10/shape_one_way = false
+10/shape_one_way_margin = 1.0
+10/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 3 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 64, 64 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 4 ),
+"shape_transform": Transform2D( 2.22127e-06, -1, 1, 2.22127e-06, 64, 64 )
+} ]
+10/z_index = 0
+11/name = "road_asphalt82"
+11/texture = ExtResource( 17 )
+11/tex_offset = Vector2( 0, 0 )
+11/modulate = Color( 1, 1, 1, 1 )
+11/region = Rect2( 0, 0, 128, 128 )
+11/tile_mode = 0
+11/occluder_offset = Vector2( 64, 64 )
+11/navigation_offset = Vector2( 64, 64 )
+11/shape_offset = Vector2( 64, 117.575 )
+11/shape_transform = Transform2D( 1, 0, 0, 1, 64, 117.575 )
+11/shape = SubResource( 5 )
+11/shape_one_way = false
+11/shape_one_way_margin = 1.0
+11/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 5 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 64, 117.575 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 5 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 64, 10.425 )
+} ]
+11/z_index = 0
+12/name = "road_asphalt83"
+12/texture = ExtResource( 19 )
+12/tex_offset = Vector2( 0, 0 )
+12/modulate = Color( 1, 1, 1, 1 )
+12/region = Rect2( 0, 0, 128, 128 )
+12/tile_mode = 0
+12/occluder_offset = Vector2( 64, 64 )
+12/navigation_offset = Vector2( 64, 64 )
+12/shape_offset = Vector2( 0, 0 )
+12/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+12/shape_one_way = false
+12/shape_one_way_margin = 0.0
+12/shapes = [  ]
+12/z_index = 0
+13/name = "road_asphalt84"
+13/texture = ExtResource( 4 )
+13/tex_offset = Vector2( 0, 0 )
+13/modulate = Color( 1, 1, 1, 1 )
+13/region = Rect2( 0, 0, 128, 128 )
+13/tile_mode = 0
+13/occluder_offset = Vector2( 64, 64 )
+13/navigation_offset = Vector2( 64, 64 )
+13/shape_offset = Vector2( 0, 0 )
+13/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+13/shape_one_way = false
+13/shape_one_way_margin = 0.0
+13/shapes = [  ]
+13/z_index = 0
+14/name = "road_asphalt85"
+14/texture = ExtResource( 7 )
+14/tex_offset = Vector2( 0, 0 )
+14/modulate = Color( 1, 1, 1, 1 )
+14/region = Rect2( 0, 0, 128, 128 )
+14/tile_mode = 0
+14/occluder_offset = Vector2( 64, 64 )
+14/navigation_offset = Vector2( 64, 64 )
+14/shape_offset = Vector2( 0, 0 )
+14/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+14/shape_one_way = false
+14/shape_one_way_margin = 0.0
+14/shapes = [  ]
+14/z_index = 0
+15/name = "road_asphalt86"
+15/texture = ExtResource( 3 )
+15/tex_offset = Vector2( 0, 0 )
+15/modulate = Color( 1, 1, 1, 1 )
+15/region = Rect2( 0, 0, 128, 128 )
+15/tile_mode = 0
+15/occluder_offset = Vector2( 64, 64 )
+15/navigation_offset = Vector2( 64, 64 )
+15/shape_offset = Vector2( 0, 0 )
+15/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+15/shape_one_way = false
+15/shape_one_way_margin = 0.0
+15/shapes = [  ]
+15/z_index = 0
+16/name = "road_asphalt88"
+16/texture = ExtResource( 18 )
+16/tex_offset = Vector2( 0, 0 )
+16/modulate = Color( 1, 1, 1, 1 )
+16/region = Rect2( 0, 0, 128, 128 )
+16/tile_mode = 0
+16/occluder_offset = Vector2( 64, 64 )
+16/navigation_offset = Vector2( 64, 64 )
+16/shape_offset = Vector2( 0, 0 )
+16/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+16/shape_one_way = false
+16/shape_one_way_margin = 0.0
+16/shapes = [  ]
+16/z_index = 0
+17/name = "road_asphalt89"
+17/texture = ExtResource( 5 )
+17/tex_offset = Vector2( 0, 0 )
+17/modulate = Color( 1, 1, 1, 1 )
+17/region = Rect2( 0, 0, 128, 128 )
+17/tile_mode = 0
+17/occluder_offset = Vector2( 64, 64 )
+17/navigation_offset = Vector2( 64, 64 )
+17/shape_offset = Vector2( 64, 117.575 )
+17/shape_transform = Transform2D( 1, 0, 0, 1, 64, 117.575 )
+17/shape = SubResource( 5 )
+17/shape_one_way = false
+17/shape_one_way_margin = 1.0
+17/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 5 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 64, 117.575 )
+} ]
+17/z_index = 0
+18/name = "road_asphalt90"
+18/texture = ExtResource( 6 )
+18/tex_offset = Vector2( 0, 0 )
+18/modulate = Color( 1, 1, 1, 1 )
+18/region = Rect2( 0, 0, 128, 128 )
+18/tile_mode = 0
+18/occluder_offset = Vector2( 64, 64 )
+18/navigation_offset = Vector2( 64, 64 )
+18/shape_offset = Vector2( 0, 0 )
+18/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+18/shape_one_way = false
+18/shape_one_way_margin = 0.0
+18/shapes = [  ]
+18/z_index = 0

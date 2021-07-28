@@ -1,0 +1,524 @@
+[gd_scene load_steps=105 format=2]
+
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Grass/land_grass13.png" type="Texture" id=1]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt88.png" type="Texture" id=2]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt83.png" type="Texture" id=3]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Grass/land_grass08.png" type="Texture" id=4]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Grass/land_grass02.png" type="Texture" id=5]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt84.png" type="Texture" id=6]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Grass/land_grass12.png" type="Texture" id=7]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt89.png" type="Texture" id=8]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt90.png" type="Texture" id=9]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Grass/land_grass07.png" type="Texture" id=10]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt86.png" type="Texture" id=11]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt85.png" type="Texture" id=12]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt87.png" type="Texture" id=13]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Grass/land_grass01.png" type="Texture" id=14]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Grass/land_grass04.png" type="Texture" id=15]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Grass/land_grass11.png" type="Texture" id=16]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Grass/land_grass09.png" type="Texture" id=17]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Grass/land_grass03.png" type="Texture" id=18]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Grass/land_grass06.png" type="Texture" id=19]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Grass/land_grass14.png" type="Texture" id=20]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Grass/land_grass05.png" type="Texture" id=21]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Grass/land_grass10.png" type="Texture" id=22]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt01.png" type="Texture" id=23]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt02.png" type="Texture" id=24]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt04.png" type="Texture" id=25]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt05.png" type="Texture" id=26]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt03.png" type="Texture" id=27]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt06.png" type="Texture" id=28]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt07.png" type="Texture" id=29]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt08.png" type="Texture" id=30]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt09.png" type="Texture" id=31]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt11.png" type="Texture" id=32]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt10.png" type="Texture" id=33]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt12.png" type="Texture" id=34]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt45.png" type="Texture" id=35]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt39.png" type="Texture" id=36]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt31.png" type="Texture" id=37]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt52.png" type="Texture" id=38]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt61.png" type="Texture" id=39]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt62.png" type="Texture" id=40]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt57.png" type="Texture" id=41]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt67.png" type="Texture" id=42]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt70.png" type="Texture" id=43]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt29.png" type="Texture" id=44]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt37.png" type="Texture" id=45]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt38.png" type="Texture" id=46]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt44.png" type="Texture" id=47]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt28.png" type="Texture" id=48]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt47.png" type="Texture" id=49]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt64.png" type="Texture" id=50]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt66.png" type="Texture" id=51]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt15.png" type="Texture" id=52]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt16.png" type="Texture" id=53]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt41.png" type="Texture" id=54]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt18.png" type="Texture" id=55]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt49.png" type="Texture" id=56]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt58.png" type="Texture" id=57]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt19.png" type="Texture" id=58]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt25.png" type="Texture" id=59]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt32.png" type="Texture" id=60]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt35.png" type="Texture" id=61]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt59.png" type="Texture" id=62]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt68.png" type="Texture" id=63]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt69.png" type="Texture" id=64]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt71.png" type="Texture" id=65]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt65.png" type="Texture" id=66]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt72.png" type="Texture" id=67]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt73.png" type="Texture" id=68]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt17.png" type="Texture" id=69]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt63.png" type="Texture" id=70]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt34.png" type="Texture" id=71]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt60.png" type="Texture" id=72]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt74.png" type="Texture" id=73]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt22.png" type="Texture" id=74]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt75.png" type="Texture" id=75]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt76.png" type="Texture" id=76]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt26.png" type="Texture" id=77]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt13.png" type="Texture" id=78]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt43.png" type="Texture" id=79]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt55.png" type="Texture" id=80]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt48.png" type="Texture" id=81]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt24.png" type="Texture" id=82]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt50.png" type="Texture" id=83]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt20.png" type="Texture" id=84]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt33.png" type="Texture" id=85]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt21.png" type="Texture" id=86]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt27.png" type="Texture" id=87]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt23.png" type="Texture" id=88]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt36.png" type="Texture" id=89]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt42.png" type="Texture" id=90]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt51.png" type="Texture" id=91]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt53.png" type="Texture" id=92]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt30.png" type="Texture" id=93]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt54.png" type="Texture" id=94]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt14.png" type="Texture" id=95]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt56.png" type="Texture" id=96]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt40.png" type="Texture" id=97]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt46.png" type="Texture" id=98]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt79.png" type="Texture" id=99]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt80.png" type="Texture" id=100]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt77.png" type="Texture" id=101]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt81.png" type="Texture" id=102]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt82.png" type="Texture" id=103]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt78.png" type="Texture" id=104]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="road_asphalt01" type="Sprite" parent="."]
+position = Vector2( 256, 337 )
+texture = ExtResource( 23 )
+
+[node name="road_asphalt02" type="Sprite" parent="."]
+position = Vector2( 256, 337 )
+texture = ExtResource( 24 )
+
+[node name="road_asphalt03" type="Sprite" parent="."]
+position = Vector2( 256, 337 )
+texture = ExtResource( 27 )
+
+[node name="road_asphalt04" type="Sprite" parent="."]
+position = Vector2( 256, 337 )
+texture = ExtResource( 25 )
+
+[node name="road_asphalt05" type="Sprite" parent="."]
+position = Vector2( 256, 337 )
+texture = ExtResource( 26 )
+
+[node name="road_asphalt06" type="Sprite" parent="."]
+position = Vector2( 256, 337 )
+texture = ExtResource( 28 )
+
+[node name="road_asphalt07" type="Sprite" parent="."]
+position = Vector2( 256, 337 )
+texture = ExtResource( 29 )
+
+[node name="road_asphalt08" type="Sprite" parent="."]
+position = Vector2( 256, 337 )
+texture = ExtResource( 30 )
+
+[node name="road_asphalt09" type="Sprite" parent="."]
+position = Vector2( 256, 337 )
+texture = ExtResource( 31 )
+
+[node name="road_asphalt10" type="Sprite" parent="."]
+position = Vector2( 256, 337 )
+texture = ExtResource( 33 )
+
+[node name="road_asphalt11" type="Sprite" parent="."]
+position = Vector2( 256, 337 )
+texture = ExtResource( 32 )
+
+[node name="road_asphalt12" type="Sprite" parent="."]
+position = Vector2( 256, 337 )
+texture = ExtResource( 34 )
+
+[node name="road_asphalt13" type="Sprite" parent="."]
+position = Vector2( 256, 337 )
+texture = ExtResource( 78 )
+
+[node name="road_asphalt14" type="Sprite" parent="."]
+position = Vector2( 256, 337 )
+texture = ExtResource( 95 )
+
+[node name="road_asphalt15" type="Sprite" parent="."]
+position = Vector2( 256, 337 )
+texture = ExtResource( 52 )
+
+[node name="road_asphalt16" type="Sprite" parent="."]
+position = Vector2( 256, 337 )
+texture = ExtResource( 53 )
+
+[node name="road_asphalt17" type="Sprite" parent="."]
+position = Vector2( 256, 337 )
+texture = ExtResource( 69 )
+
+[node name="road_asphalt18" type="Sprite" parent="."]
+position = Vector2( 256, 337 )
+texture = ExtResource( 55 )
+
+[node name="road_asphalt19" type="Sprite" parent="."]
+position = Vector2( 256, 337 )
+texture = ExtResource( 58 )
+
+[node name="road_asphalt20" type="Sprite" parent="."]
+position = Vector2( 256, 337 )
+texture = ExtResource( 84 )
+
+[node name="road_asphalt21" type="Sprite" parent="."]
+position = Vector2( 256, 337 )
+texture = ExtResource( 86 )
+
+[node name="road_asphalt22" type="Sprite" parent="."]
+position = Vector2( 256, 337 )
+texture = ExtResource( 74 )
+
+[node name="road_asphalt23" type="Sprite" parent="."]
+position = Vector2( 256, 337 )
+texture = ExtResource( 88 )
+
+[node name="road_asphalt24" type="Sprite" parent="."]
+position = Vector2( 256, 337 )
+texture = ExtResource( 82 )
+
+[node name="road_asphalt25" type="Sprite" parent="."]
+position = Vector2( 256, 337 )
+texture = ExtResource( 59 )
+
+[node name="road_asphalt26" type="Sprite" parent="."]
+position = Vector2( 256, 337 )
+texture = ExtResource( 77 )
+
+[node name="road_asphalt27" type="Sprite" parent="."]
+position = Vector2( 256, 337 )
+texture = ExtResource( 87 )
+
+[node name="road_asphalt28" type="Sprite" parent="."]
+position = Vector2( 256, 337 )
+texture = ExtResource( 48 )
+
+[node name="road_asphalt29" type="Sprite" parent="."]
+position = Vector2( 256, 337 )
+texture = ExtResource( 44 )
+
+[node name="road_asphalt30" type="Sprite" parent="."]
+position = Vector2( 256, 337 )
+texture = ExtResource( 93 )
+
+[node name="road_asphalt31" type="Sprite" parent="."]
+position = Vector2( 256, 337 )
+texture = ExtResource( 37 )
+
+[node name="road_asphalt32" type="Sprite" parent="."]
+position = Vector2( 256, 337 )
+texture = ExtResource( 60 )
+
+[node name="road_asphalt33" type="Sprite" parent="."]
+position = Vector2( 256, 337 )
+texture = ExtResource( 85 )
+
+[node name="road_asphalt34" type="Sprite" parent="."]
+position = Vector2( 256, 337 )
+texture = ExtResource( 71 )
+
+[node name="road_asphalt35" type="Sprite" parent="."]
+position = Vector2( 256, 337 )
+texture = ExtResource( 61 )
+
+[node name="road_asphalt36" type="Sprite" parent="."]
+position = Vector2( 256, 337 )
+texture = ExtResource( 89 )
+
+[node name="road_asphalt37" type="Sprite" parent="."]
+position = Vector2( 256, 337 )
+texture = ExtResource( 45 )
+
+[node name="road_asphalt38" type="Sprite" parent="."]
+position = Vector2( 256, 337 )
+texture = ExtResource( 46 )
+
+[node name="road_asphalt39" type="Sprite" parent="."]
+position = Vector2( 256, 337 )
+texture = ExtResource( 36 )
+
+[node name="road_asphalt40" type="Sprite" parent="."]
+position = Vector2( 256, 337 )
+texture = ExtResource( 97 )
+
+[node name="road_asphalt41" type="Sprite" parent="."]
+position = Vector2( 256, 337 )
+texture = ExtResource( 54 )
+
+[node name="road_asphalt42" type="Sprite" parent="."]
+position = Vector2( 256, 337 )
+texture = ExtResource( 90 )
+
+[node name="road_asphalt43" type="Sprite" parent="."]
+position = Vector2( 256, 337 )
+texture = ExtResource( 79 )
+
+[node name="road_asphalt44" type="Sprite" parent="."]
+position = Vector2( 256, 337 )
+texture = ExtResource( 47 )
+
+[node name="road_asphalt45" type="Sprite" parent="."]
+position = Vector2( 256, 337 )
+texture = ExtResource( 35 )
+
+[node name="road_asphalt46" type="Sprite" parent="."]
+position = Vector2( 256, 337 )
+texture = ExtResource( 98 )
+
+[node name="road_asphalt47" type="Sprite" parent="."]
+position = Vector2( 256, 337 )
+texture = ExtResource( 49 )
+
+[node name="road_asphalt48" type="Sprite" parent="."]
+position = Vector2( 256, 337 )
+texture = ExtResource( 81 )
+
+[node name="road_asphalt49" type="Sprite" parent="."]
+position = Vector2( 256, 337 )
+texture = ExtResource( 56 )
+
+[node name="road_asphalt50" type="Sprite" parent="."]
+position = Vector2( 256, 337 )
+texture = ExtResource( 83 )
+
+[node name="road_asphalt51" type="Sprite" parent="."]
+position = Vector2( 256, 337 )
+texture = ExtResource( 91 )
+
+[node name="road_asphalt52" type="Sprite" parent="."]
+position = Vector2( 256, 337 )
+texture = ExtResource( 38 )
+
+[node name="road_asphalt53" type="Sprite" parent="."]
+position = Vector2( 256, 337 )
+texture = ExtResource( 92 )
+
+[node name="road_asphalt54" type="Sprite" parent="."]
+position = Vector2( 256, 337 )
+texture = ExtResource( 94 )
+
+[node name="road_asphalt55" type="Sprite" parent="."]
+position = Vector2( 256, 337 )
+texture = ExtResource( 80 )
+
+[node name="road_asphalt56" type="Sprite" parent="."]
+position = Vector2( 256, 337 )
+texture = ExtResource( 96 )
+
+[node name="road_asphalt57" type="Sprite" parent="."]
+position = Vector2( 256, 337 )
+texture = ExtResource( 41 )
+
+[node name="road_asphalt58" type="Sprite" parent="."]
+position = Vector2( 256, 337 )
+texture = ExtResource( 57 )
+
+[node name="road_asphalt59" type="Sprite" parent="."]
+position = Vector2( 256, 337 )
+texture = ExtResource( 62 )
+
+[node name="road_asphalt60" type="Sprite" parent="."]
+position = Vector2( 256, 337 )
+texture = ExtResource( 72 )
+
+[node name="road_asphalt61" type="Sprite" parent="."]
+position = Vector2( 256, 337 )
+texture = ExtResource( 39 )
+
+[node name="road_asphalt62" type="Sprite" parent="."]
+position = Vector2( 256, 337 )
+texture = ExtResource( 40 )
+
+[node name="road_asphalt63" type="Sprite" parent="."]
+position = Vector2( 256, 337 )
+texture = ExtResource( 70 )
+
+[node name="road_asphalt64" type="Sprite" parent="."]
+position = Vector2( 256, 337 )
+texture = ExtResource( 50 )
+
+[node name="road_asphalt65" type="Sprite" parent="."]
+position = Vector2( 256, 337 )
+texture = ExtResource( 66 )
+
+[node name="road_asphalt66" type="Sprite" parent="."]
+position = Vector2( 256, 337 )
+texture = ExtResource( 51 )
+
+[node name="road_asphalt67" type="Sprite" parent="."]
+position = Vector2( 256, 337 )
+texture = ExtResource( 42 )
+
+[node name="road_asphalt68" type="Sprite" parent="."]
+position = Vector2( 256, 337 )
+texture = ExtResource( 63 )
+
+[node name="road_asphalt69" type="Sprite" parent="."]
+position = Vector2( 256, 337 )
+texture = ExtResource( 64 )
+
+[node name="road_asphalt70" type="Sprite" parent="."]
+position = Vector2( 256, 337 )
+texture = ExtResource( 43 )
+
+[node name="road_asphalt71" type="Sprite" parent="."]
+position = Vector2( 256, 337 )
+texture = ExtResource( 65 )
+
+[node name="road_asphalt72" type="Sprite" parent="."]
+position = Vector2( 256, 337 )
+texture = ExtResource( 67 )
+
+[node name="road_asphalt73" type="Sprite" parent="."]
+position = Vector2( 256, 337 )
+texture = ExtResource( 68 )
+
+[node name="road_asphalt74" type="Sprite" parent="."]
+position = Vector2( 256, 337 )
+texture = ExtResource( 73 )
+
+[node name="road_asphalt75" type="Sprite" parent="."]
+position = Vector2( 256, 337 )
+texture = ExtResource( 75 )
+
+[node name="road_asphalt76" type="Sprite" parent="."]
+position = Vector2( 256, 337 )
+texture = ExtResource( 76 )
+
+[node name="road_asphalt77" type="Sprite" parent="."]
+position = Vector2( 256, 337 )
+texture = ExtResource( 101 )
+
+[node name="road_asphalt78" type="Sprite" parent="."]
+position = Vector2( 256, 337 )
+texture = ExtResource( 104 )
+
+[node name="road_asphalt79" type="Sprite" parent="."]
+position = Vector2( 256, 337 )
+texture = ExtResource( 99 )
+
+[node name="road_asphalt80" type="Sprite" parent="."]
+position = Vector2( 256, 337 )
+texture = ExtResource( 100 )
+
+[node name="road_asphalt81" type="Sprite" parent="."]
+position = Vector2( 256, 337 )
+texture = ExtResource( 102 )
+
+[node name="road_asphalt82" type="Sprite" parent="."]
+position = Vector2( 256, 337 )
+texture = ExtResource( 103 )
+
+[node name="road_asphalt83" type="Sprite" parent="."]
+position = Vector2( 256, 337 )
+texture = ExtResource( 3 )
+
+[node name="road_asphalt84" type="Sprite" parent="."]
+position = Vector2( 256, 337 )
+texture = ExtResource( 6 )
+
+[node name="road_asphalt85" type="Sprite" parent="."]
+position = Vector2( 256, 337 )
+texture = ExtResource( 12 )
+
+[node name="road_asphalt86" type="Sprite" parent="."]
+position = Vector2( 256, 337 )
+texture = ExtResource( 11 )
+
+[node name="road_asphalt87" type="Sprite" parent="."]
+position = Vector2( 256, 337 )
+texture = ExtResource( 13 )
+
+[node name="road_asphalt88" type="Sprite" parent="."]
+position = Vector2( 256, 337 )
+texture = ExtResource( 2 )
+
+[node name="road_asphalt89" type="Sprite" parent="."]
+position = Vector2( 256, 337 )
+texture = ExtResource( 8 )
+
+[node name="road_asphalt90" type="Sprite" parent="."]
+position = Vector2( 256, 337 )
+texture = ExtResource( 9 )
+
+[node name="land_grass01" type="Sprite" parent="."]
+position = Vector2( 591, 287 )
+texture = ExtResource( 14 )
+
+[node name="land_grass02" type="Sprite" parent="."]
+position = Vector2( 591, 287 )
+texture = ExtResource( 5 )
+
+[node name="land_grass03" type="Sprite" parent="."]
+position = Vector2( 591, 287 )
+texture = ExtResource( 18 )
+
+[node name="land_grass04" type="Sprite" parent="."]
+position = Vector2( 591, 287 )
+texture = ExtResource( 15 )
+
+[node name="land_grass05" type="Sprite" parent="."]
+position = Vector2( 591, 287 )
+texture = ExtResource( 21 )
+
+[node name="land_grass06" type="Sprite" parent="."]
+position = Vector2( 591, 287 )
+texture = ExtResource( 19 )
+
+[node name="land_grass07" type="Sprite" parent="."]
+position = Vector2( 591, 287 )
+texture = ExtResource( 10 )
+
+[node name="land_grass08" type="Sprite" parent="."]
+position = Vector2( 591, 287 )
+texture = ExtResource( 4 )
+
+[node name="land_grass09" type="Sprite" parent="."]
+position = Vector2( 591, 287 )
+texture = ExtResource( 17 )
+
+[node name="land_grass10" type="Sprite" parent="."]
+position = Vector2( 591, 287 )
+texture = ExtResource( 22 )
+
+[node name="land_grass11" type="Sprite" parent="."]
+position = Vector2( 591, 287 )
+texture = ExtResource( 16 )
+
+[node name="land_grass12" type="Sprite" parent="."]
+position = Vector2( 591, 287 )
+texture = ExtResource( 7 )
+
+[node name="land_grass13" type="Sprite" parent="."]
+position = Vector2( 591, 287 )
+texture = ExtResource( 1 )
+
+[node name="land_grass14" type="Sprite" parent="."]
+position = Vector2( 591, 287 )
+texture = ExtResource( 20 )

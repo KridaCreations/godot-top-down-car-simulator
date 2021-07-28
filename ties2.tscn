@@ -1,0 +1,168 @@
+[gd_scene load_steps=21 format=2]
+
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt67.png" type="Texture" id=2]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt64.png" type="Texture" id=6]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt86.png" type="Texture" id=13]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt84.png" type="Texture" id=14]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt89.png" type="Texture" id=15]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt90.png" type="Texture" id=23]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt85.png" type="Texture" id=24]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt66.png" type="Texture" id=27]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt25.png" type="Texture" id=28]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt68.png" type="Texture" id=31]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt65.png" type="Texture" id=43]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt72.png" type="Texture" id=45]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt22.png" type="Texture" id=59]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt40.png" type="Texture" id=73]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt46.png" type="Texture" id=80]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt76.png" type="Texture" id=81]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt82.png" type="Texture" id=86]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt88.png" type="Texture" id=89]
+[ext_resource path="res://kenney_racingpack_updated/PNG/Tiles/Asphalt road/road_asphalt83.png" type="Texture" id=90]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 63.664, 10 )
+
+[node name="Node2D" type="Node2D"]
+
+[node name="road_asphalt22" type="Sprite" parent="."]
+position = Vector2( 747.445, 68.9875 )
+texture = ExtResource( 59 )
+
+[node name="road_asphalt25" type="Sprite" parent="."]
+position = Vector2( 831.431, -151.708 )
+texture = ExtResource( 28 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="road_asphalt25"]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="road_asphalt25/StaticBody2D"]
+polygon = PoolVector2Array( 44.0691, -63.9793, 16.1547, 15.2366, -64.0048, 44.079, -64.0048, 63.9316, 30.014, 30.5943, 64.0066, -63.8543 )
+
+[node name="road_asphalt40" type="Sprite" parent="."]
+position = Vector2( 417.729, -42.9274 )
+texture = ExtResource( 73 )
+
+[node name="StaticBody2D2" type="StaticBody2D" parent="road_asphalt40"]
+position = Vector2( 0, 53.5748 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="road_asphalt40/StaticBody2D2"]
+shape = SubResource( 1 )
+
+[node name="road_asphalt46" type="Sprite" parent="."]
+position = Vector2( 214.023, -52.4391 )
+texture = ExtResource( 80 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="road_asphalt46"]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="road_asphalt46/StaticBody2D"]
+polygon = PoolVector2Array( -64.1476, -43.9359, -49.6476, -48.9359, -43.8976, -64.0609, -64.0226, -64.0609 )
+
+[node name="road_asphalt64" type="Sprite" parent="."]
+position = Vector2( 0, 22.2319 )
+texture = ExtResource( 6 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="road_asphalt64"]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="road_asphalt64/StaticBody2D"]
+polygon = PoolVector2Array( -63.9392, 43.7174, -2.42996, 37.0883, 63.9405, 14.9695, 63.9801, 38.0889, 3.02803, 56.7263, -63.9686, 63.9566 )
+
+[node name="road_asphalt65" type="Sprite" parent="."]
+position = Vector2( -165.367, 22.2319 )
+texture = ExtResource( 43 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="road_asphalt65"]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="road_asphalt65/StaticBody2D"]
+polygon = PoolVector2Array( 16.3903, -63.8414, -18.2579, -18.9401, -63.8663, 14.6475, -63.767, 37.5758, -3.10959, -3.70564, 39.2333, -64.0087 )
+
+[node name="road_asphalt66" type="Sprite" parent="."]
+position = Vector2( -163.119, 480.686 )
+texture = ExtResource( 27 )
+
+[node name="CollisionShape2D" type="StaticBody2D" parent="road_asphalt66"]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="road_asphalt66/CollisionShape2D"]
+polygon = PoolVector2Array( 0.405472, -64.241, 20.248, -64.0425, 64.0129, 23.1609, 63.6861, 63.4775 )
+
+[node name="road_asphalt67" type="Sprite" parent="."]
+position = Vector2( -163.119, 334.02 )
+texture = ExtResource( 2 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="road_asphalt67"]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="road_asphalt67/StaticBody2D"]
+polygon = PoolVector2Array( -64.1801, 24.6461, -64.1801, 63.8905, -44.0276, 63.8905 )
+
+[node name="road_asphalt68" type="Sprite" parent="."]
+position = Vector2( -163.119, 173.561 )
+texture = ExtResource( 31 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="road_asphalt68"]
+
+[node name="CollisionShape2D" type="CollisionPolygon2D" parent="road_asphalt68/StaticBody2D"]
+polygon = PoolVector2Array( -19.7894, -64.0687, 0.365387, -64.0023, 63.9668, 63.9862, 44.2536, 63.8459 )
+
+[node name="road_asphalt72" type="Sprite" parent="."]
+position = Vector2( 0, 308.722 )
+texture = ExtResource( 45 )
+
+[node name="road_asphalt76" type="Sprite" parent="."]
+position = Vector2( 0, 173.561 )
+texture = ExtResource( 81 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="road_asphalt76"]
+
+[node name="CollisionShape2D" type="CollisionPolygon2D" parent="road_asphalt76/StaticBody2D"]
+polygon = PoolVector2Array( 63.7274, 43.9391, 47.4222, 50.0651, 44.3524, 63.9391, 63.8196, 63.9399 )
+
+[node name="CollisionShape2D2" type="CollisionPolygon2D" parent="road_asphalt76/StaticBody2D"]
+rotation = -1.57079
+polygon = PoolVector2Array( 63.9224, 43.6217, 47.4222, 50.0651, 44.0699, 64.0362, 63.8196, 63.9399 )
+
+[node name="road_asphalt82" type="Sprite" parent="."]
+position = Vector2( 303.702, 447.693 )
+texture = ExtResource( 86 )
+
+[node name="StaticBody2D2" type="StaticBody2D" parent="road_asphalt82"]
+position = Vector2( 0, 53.575 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="road_asphalt82/StaticBody2D2"]
+shape = SubResource( 1 )
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="road_asphalt82/StaticBody2D2"]
+position = Vector2( 0, -107.15 )
+shape = SubResource( 1 )
+
+[node name="road_asphalt83" type="Sprite" parent="."]
+position = Vector2( 154.023, 450.081 )
+texture = ExtResource( 90 )
+
+[node name="road_asphalt84" type="Sprite" parent="."]
+position = Vector2( 610.651, 310.232 )
+texture = ExtResource( 14 )
+
+[node name="road_asphalt85" type="Sprite" parent="."]
+position = Vector2( 450.672, 172.501 )
+texture = ExtResource( 24 )
+
+[node name="road_asphalt86" type="Sprite" parent="."]
+position = Vector2( 448.553, 305.994 )
+texture = ExtResource( 13 )
+
+[node name="road_asphalt88" type="Sprite" parent="."]
+position = Vector2( 300.108, 309.158 )
+texture = ExtResource( 89 )
+
+[node name="road_asphalt89" type="Sprite" parent="."]
+position = Vector2( 154.023, 309.907 )
+texture = ExtResource( 15 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="road_asphalt89"]
+position = Vector2( 0, 53.5748 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="road_asphalt89/StaticBody2D"]
+shape = SubResource( 1 )
+
+[node name="road_asphalt90" type="Sprite" parent="."]
+position = Vector2( 300.857, 175.059 )
+texture = ExtResource( 23 )
